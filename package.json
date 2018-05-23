@@ -19,7 +19,11 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "standard": "standard",
+    "lint-lib": "standard ./lib",
+    "lint-test": "standard ./test",
+    "fix": "standard --fix"  
   },
   "devDependencies": {
     "chai": "^1.9.1",
@@ -30,6 +34,7 @@
     "grunt-notify": "^0.3.1",
     "matchdep": "^0.3.0",
     "proxyquire": "^0.6.0",
+    "standard": "^11.0.1",
     "time-grunt": "^1.0.0"
   },
   "keywords": [
