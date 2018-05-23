@@ -1,16 +1,42 @@
 # msg-attention
 
-> Display attention-grabbing messages in the terminal.
-
 ![server started](https://f.cloud.github.com/assets/51505/1282112/017bbcda-2f6e-11e3-9d36-8fadd1a7fa16.png)
 
-## Installing
+> Display attention-grabbing messages in the terminal.
+
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+- [API](#api)
+    - [`message` _required_](#message-_required_)
+    - [`border` _optional_](#border-_optional_)
+    - [`borderColor` _optional_](#bordercolor-_optional_)
+- [More examples](#more-examples)
+- [Tests](#tests)
+- [Contribute](#contribute)
+- [Thanks to](#thanks-to)
+- [License](#license)
+
+## Background
+
+Forked from [@dylang/grunt-attention](https://github.com/dylang/grunt-attention), as I needed to use it outside of Grunt.
+
+## Install
 
 ```bash
 npm install --save msg-attention
 ```
 
-## msg-attention Options
+or
+
+```bash
+yarn add msg-attention
+```
+
+## Usage
 
 ```js
 
@@ -21,7 +47,7 @@ TODO
 ![files pushed](https://f.cloud.github.com/assets/51505/1282110/fd11ea48-2f6d-11e3-8aa3-099db5da6ac5.png)
 
 
-### Options
+## API
 
 #### `message` _required_
 
@@ -54,7 +80,18 @@ Currently you can't set both the foreground and the background, that will be res
 ## Tests
 Run `npm test` to lint and run the tests.
 
+## Contribute
+
+See [the contribute file](contribute.md)!
+
+PRs accepted.
+
+Small note: If editing the Readme, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+
+## Thanks to
+
+[@dylang](https://github.com/dylang) for the idea, the original package and for releasing both of them under the MIT license.
 
 ## License
 
-[LICENSE-MIT](MIT)
+[MIT © Giacomo Rossetto](../LICENSE)
